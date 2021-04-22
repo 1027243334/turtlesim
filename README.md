@@ -1,5 +1,5 @@
 # turtlesim
-It's my first project to learn ROS. Download and play with **turtlesim workspace**, which includes some packages developed to learn the turtlesim_node. Please enjoy it.
+It's my first project to learn ROS. Download and play with *turtlesim workspace*, which includes some packages developed to learn the turtlesim_node. Please enjoy it.
 
 Now, I am going to introduce ./src/turtlesim_name pacakge to you for a better understanding. You can follow my steps to create another one.
 
@@ -12,7 +12,7 @@ The message published by the **draw_my_name** node is implemented by compiling t
 ## Step 1: Create Workspace
 `$ mkdir -p ~/turtlesim/src `
 
-The *turtlesim* folder is generated under the *home* directory and the *src* folder is generated within the turtlesim folder.
+The *turtlesim* folder is generated under the *home* directory and the *src* folder is generated within the *turtlesim* folder.
 
 `$ cd ~/turtlesim/`
 
@@ -53,7 +53,7 @@ Then, use catkin_make to compile the *demo.cpp* file.
 
 If there are some errors, you can correct the error as prompted. After modifying, you can run the command again. While the it is completed to **100%**, you succeed.
 
-Finally, change your path to **turtlesim workspace**, then, open three terminals and type in the following command and run them one by one. (If there are some errors indicate files can not be found, you should run the commond `$ devel/setup.bash` at first.)
+Finally, change your path to *turtlesim workspace*, then, open three terminals and type in the following command and run them one by one. (If there are some errors indicate files can not be found, you should run the commond `$ devel/setup.bash` at first.)
 
 `$ roscore`
 
@@ -62,4 +62,3 @@ Finally, change your path to **turtlesim workspace**, then, open three terminals
 `$ rosrun turtlesim_name turtlesim_name`
 
 ![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mcahBevoIg066oyla.RCWLaMaGChLzrQCNEO6G3xrCPIn8h1DjYLWpeOeuOP1hsjK27d99pzcdMFctk9jlj7Tcc0!/b&bo=gAc4BIAHOAQDORw!&rf=viewer_4)
-
