@@ -1,0 +1,2 @@
+turtlesim_name
+-DCATKIN_DEVEL_PREFIX=/home/pan/turtlesim/devel -DCMAKE_INSTALL_PREFIX=/home/pan/turtlesim/install -G Unix Makefiles

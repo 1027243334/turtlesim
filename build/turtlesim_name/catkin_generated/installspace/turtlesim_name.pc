@@ -1,0 +1,8 @@
+prefix=/home/pan/turtlesim/install
+
+Name: turtlesim_name
+Description: Description of turtlesim_name
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs
