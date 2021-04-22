@@ -1,5 +1,5 @@
 # turtlesim
-It's my first project to learn ROS. Download and play with turtlesim workspace, which includes some packages developed to learn the turtlesim_node. Please enjoy it.
+It's my first project to learn ROS. Download and play with **turtlesim workspace**, which includes some packages developed to learn the turtlesim_node. Please enjoy it.
 
 Now, I am going to introduce ./src/turtlesim_name pacakge to you for a better understanding. You can follow my steps to create another one.
 
@@ -21,3 +21,45 @@ The *turtlesim* folder is generated under the *home* directory and the *src* fol
 The first time you run it in your workspace, a *CMakelists.txt* file is created in the *src* folder. In addition, *build* and *devel* folders will be generated in the current directory.
 
 ![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mcZ4u9lod5A0RGiMbl*jDuQb.hMqXcgWJ5qPrQ69C3chNDM.j7h.OjjdMUfHPmGpUqciWwYOIkZx*kFpgAHhqz*A!/b&bo=egMXAnoDFwIDGTw!&rf=viewer_4)
+
+## Step 2: Create Package
+`$ cd ~/turtlesim/src`
+
+`$ catkin_create_pkg turtlesim_name std_msgs rospy roscpp`
+
+(Format for catkin_create_pkg <package_name> [depend1] [depend2] [depend3])
+
+![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mcZ4u9lod5A0RGiMbl*jDuQaOBvBRd*MH8h*Iw98SEFKjA90AedzWuJeKS76RRol.VbEknahn7Yo7aoxnMxmozyk!/b&bo=egMXAnoDFwIDGTw!&rf=viewer_4)
+
+## Step 3: Edit configuration files
+`$ cd ~/turtlesim/src/turtlesim_name/src`
+
+`$ touch demo.cpp`
+
+This file wiritten code is to control the turtle movement. The code can refer to my *demo.cpp* file.
+
+Then, as follows, modify the *CMakelists.txt* file.
+
+![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mcahBevoIg066oyla.RCWLaPpBQxqgpzyQdRFQKPkAvf*ukdJeAsM5SssH3ix.oBfNRpEXKQsT5NcuVUGYYTdiFw!/b&bo=hAPmAoQD5gIDGTw!&rf=viewer_4)
+
+At last, modify the *package.xml* file.
+
+![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mcahBevoIg066oyla.RCWLaNo9mlE8FUAMoNxjlNQwIE3isQp.Tppg.w*I5ReMGY6LzXujBEWluLnuZyl3lYS6Hk!/b&bo=hAPmAoQD5gIDGTw!&rf=viewer_4)
+
+Then, use catkin_make to compile the *demo.cpp* file.
+`$ cd ~/catkin_ws`
+
+`$ catkin_make`
+
+If there are some errors, you can correct the error as prompted. After modifying, you can run the command again. While the it is completed to **100%**, you succeed.
+
+Finally, change your path to **turtlesim workspace**, then, open three terminals and type in the following command and run them one by one. (If there are some errors indicate files can not be found, you should run the commond `$ devel/setup.bash` at first.)
+
+`$ roscore`
+
+`$ rosrun turtlesim turtlesim_node`
+
+`$ rosrun turtlesim_name turtlesim_name`
+
+![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mcahBevoIg066oyla.RCWLaMaGChLzrQCNEO6G3xrCPIn8h1DjYLWpeOeuOP1hsjK27d99pzcdMFctk9jlj7Tcc0!/b&bo=gAc4BIAHOAQDORw!&rf=viewer_4)
+
