@@ -47,6 +47,7 @@ At last, modify the *package.xml* file.
 ![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mcahBevoIg066oyla.RCWLaNo9mlE8FUAMoNxjlNQwIE3isQp.Tppg.w*I5ReMGY6LzXujBEWluLnuZyl3lYS6Hk!/b&bo=hAPmAoQD5gIDGTw!&rf=viewer_4)
 
 Then, use catkin_make to compile the *demo.cpp* file.
+
 `$ cd ~/catkin_ws`
 
 `$ catkin_make`
@@ -62,3 +63,7 @@ Finally, change your path to *turtlesim workspace*, then, open three terminals a
 `$ rosrun turtlesim_name turtlesim_name`
 
 ![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mcahBevoIg066oyla.RCWLaMaGChLzrQCNEO6G3xrCPIn8h1DjYLWpeOeuOP1hsjK27d99pzcdMFctk9jlj7Tcc0!/b&bo=gAc4BIAHOAQDORw!&rf=viewer_4)
+
+[Here is the video](https://www.bilibili.com/video/BV13p4y1b7ya) showed the movement effect.
+
+![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mcRHgcXXNu0QQn5BD5Hz73Q1qKHGCkpmLiGXnQs*M9E.BhgGbvSqKEU3XtdWHfYBBwiB0aMQuszqNhdt8PvPd9No!/b&bo=vwHQAQAAAAABF18!&rf=viewer_4)
