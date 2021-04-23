@@ -1,5 +1,5 @@
 # turtlesim_name
-I am going to introduce turtlesim_name pacakge to you. You can follow my steps.
+I am going to introduce how to create turtlesim_name pacakge to you. You can follow my steps or just download and run it.
 
 ## Principle
 Create the **draw_my_name** node and publish the message to the topic **turtle1/cmd_vel**. And then create the **turtle1** node and subscribe to the topic **turtle1/cmd_vel** (automatically subscribed when created). 
