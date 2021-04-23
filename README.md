@@ -3,8 +3,8 @@ It's me first project to learn ROS. Play with *turtlesim workspace*, which inclu
 
 + turlesim_name
 
-Draw the initials of my name "PRT".
+  Draw the initials of my name "PRT".
 
 + turtlesim_tf
 
-Learn the tf coordinate transformation package by controlling turtle2 to follow turtle1.
+  Learn the tf coordinate transformation package by controlling turtle2 to follow turtle1.
