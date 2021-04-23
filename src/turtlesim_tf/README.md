@@ -29,6 +29,6 @@ Third, edit *package.xml file*.
 
 Please check them according to the files I wrote.
 
-At last, the most important is to create a start_tf.launch file, which is stored in */turtlesim_tf/launch* folder.
+At last, the most important is to create a start_tf.launch file, which is stored in */turtlesim_tf/launch* folder, which you should create by yourself.
 
-<img src="http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mcZxMkC8aCSQSaIAvXUz1wBLM*sB2YqG8BEmj1PfAhWwqjtzOcDAOGIgJauYWUvnQjos6xnQ4wd.630klqxLe2Jg!/b&bo=egMUAnoDFAIDGTw!&rf=viewer_4" width=500 height=300 />
+![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mcZxMkC8aCSQSaIAvXUz1wBLFKe2Gj6X55Pf3SaWmNTSXASNab0ZN6GdWvnA6vIxq42vS7xdHyUTwUH.NKSD24RA!/b&bo=egMUAnoDFAIDGTw!&rf=viewer_4)
