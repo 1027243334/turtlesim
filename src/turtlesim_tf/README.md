@@ -32,3 +32,9 @@ Please check them according to the files I wrote.
 At last, the most important is to create a start_tf.launch file, which is stored in */turtlesim_tf/launch* folder, which you should create by yourself.
 
 ![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mcZxMkC8aCSQSaIAvXUz1wBLFKe2Gj6X55Pf3SaWmNTSXASNab0ZN6GdWvnA6vIxq42vS7xdHyUTwUH.NKSD24RA!/b&bo=egMUAnoDFAIDGTw!&rf=viewer_4)
+
+## Step 3: Run the launch file
+
+`$ roslaunch turtlesim_tf start_tf.launch`
+
+[Here is a video](https://www.bilibili.com/video/BV13p4y1b7ya) you can watch the effect.
