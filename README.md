@@ -1,5 +1,5 @@
 # turtlesim
-It's my first project to learn ROS. Play with *turtlesim workspace*, which includes some packages, showed below, developed to learn the turtlesim_node. Please enjoy it.
+It's my first project to learn ROS. Play with *turtlesim workspace*, which includes some packages, showed below, developed to learn the fundation of ROS. Please enjoy it.
 
 + turlesim_name
 
