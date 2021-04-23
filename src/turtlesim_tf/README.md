@@ -37,4 +37,6 @@ At last, the most important is to create a start_tf.launch file, which is stored
 
 `$ roslaunch turtlesim_tf start_tf.launch`
 
-[Here is a video](https://www.bilibili.com/video/BV13p4y1b7ya) you can watch the effect.
+[Here is a video](https://www.bilibili.com/video/BV12o4y1f7ZB/) you can watch the effect.
+
+![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mccJ8NcjPcflQE2NTzKRt7rjM0LiCBDawLyBlOD4SP2dyk*Fkt78cpmt6IibdOMBnPOfQJMbVOHPG8N.YnUIAsy0!/b&bo=iwK0AgAAAAABFw8!&rf=viewer_4)
