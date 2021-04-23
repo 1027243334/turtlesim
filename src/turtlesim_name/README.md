@@ -1,7 +1,5 @@
-# turtlesim
-It's my first project to learn ROS. Download and play with *turtlesim workspace*, which includes some packages developed to learn the turtlesim_node. Please enjoy it.
-
-Now, I am going to introduce ./src/turtlesim_name pacakge to you for a better understanding. You can follow my steps to create another one.
+# turtlesim_name
+I am going to introduce turtlesim_name pacakge to you. You can follow my steps.
 
 ## Principle
 Create the **draw_my_name** node and publish the message to the topic **turtle1/cmd_vel**. And then create the **turtle1** node and subscribe to the topic **turtle1/cmd_vel** (automatically subscribed when created). 
