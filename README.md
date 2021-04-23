@@ -9,4 +9,4 @@ It's my first project to learn ROS. Play with *turtlesim workspace*, which inclu
 
   Learn the tf coordinate transformation package by controlling turtle2 to follow turtle1.
 
-The package are all located in *./src folder*, with **tutorials** attached.
+Packages are all located in *./src folder*, with **tutorials** attached.
