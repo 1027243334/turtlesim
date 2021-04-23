@@ -10,7 +10,7 @@ Two **turtle_tf_broadcaster nodes** broadcast the coordinate transformation of t
 
 ## Step 1: Create package
 
-Refer to *turtlesim_name package* to create *turtlesim_tf function package*.
+Refer to *turtlesim_name package* to create *turtlesim_tf package*.
 
 `$ cd ./turtle/src`
 
