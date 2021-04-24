@@ -57,7 +57,7 @@ And then, you can check the result, which will show you the format of the messag
 
 `rossrv show turtlesim_msg/AddTwoFloats`
 
-![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mccI8vUJjTUl76edME61C8GCbO313EmgjPGldn9mONVygZyfmLHsG*hTbairPzaGaUxMr89cauhrgvSYdAKfQ17s!/b&bo=3gLoAd4C6AEDGTw!&rf=viewer_4)
+![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mccI8vUJjTUl76edME61C8GCbO313EmgjPGldn9mONVygZyfmLHsG*hTbairPzaGaU1KaIVJRkkmu8YEarVVxNgg!/b&bo=3gLoAd4C6AEDGTw!&rf=viewer_4)
 
 ## Step 4: Write cpp files
 
@@ -67,7 +67,17 @@ And then, you can check the result, which will show you the format of the messag
 
 `touch showInfo.cpp`
 
-These two cpp files contains a lot of knowledge about how to use custom message and services. In my project, I don't send the message to another node. In actual use, custom messages are used for node-topic communication to facilitate the transmission of a group of data at one time.
+You should copy my code to these files. These two cpp files contains a lot of knowledge about how to use custom message and services. In my project, I don't send the message to another node. In actual use, custom messages are used for node-topic communication to facilitate the transmission of a group of data at one time.
+
+After coding, you should edit *CMakefile.txt* file to generate executable files and link libraries.
+
+`
+add_executable(add_two_floats_server src/add_two_floats_server.cpp)
+target_link_libraries(add_two_floats_server ${catkin_LIBRARIES})
+
+add_executable(showInfo src/showInfo.cpp)
+target_link_libraries(showInfo ${catkin_LIBRARIES})
+`
 
 ## Step 5: Run the files
 
