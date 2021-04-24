@@ -9,29 +9,29 @@ Here, I create two nodes. One is **/showInfo**, which is used to get the turtle'
 
 ## Step 1: Create package
 
-`cd ./turtlesim/src`
+`$ cd ./turtlesim/src`
 
-`catkin_create_pkg turtlesim_msg roscpp rospy std_msgs turtlesim`
+`$ catkin_create_pkg turtlesim_msg roscpp rospy std_msgs turtlesim`
 
 ## Step 2: Create a custom message and service
 
-`cd ./turtlesim_msg`
+`$ cd ./turtlesim_msg`
 
-`mkdir msg`
+`$ mkdir msg`
 
-`cd ./msg`
+`$ cd ./msg`
 
-`touch Info.msg`
+`$ touch Info.msg`
 
 Then, you should edit the *Info.msg* file. Please check mine. Next, create a service file.
 
-`cd ./src/turtlesim_msg`
+`$ cd ./src/turtlesim_msg`
 
-`mkdir srv`
+`$ mkdir srv`
 
-`cd ./srv`
+`$ cd ./srv`
 
-`touch AddTwoFloats.srv`
+`$ touch AddTwoFloats.srv`
 
 You should also edit the *AddTwoFloats.srv* file. Please check mine.
 
@@ -45,27 +45,27 @@ You should also edit the *AddTwoFloats.srv* file. Please check mine.
 
 After finishing it, run the following command to complie them.
 
-`cd ~/turtlesim`
+`$ cd ~/turtlesim`
 
-`catkin_make`
+`$ catkin_make`
 
 And then, you can check the result, which will show you the format of the message and service.
 
-`rosmsg show turtlesim_msg/Info`
+`$ rosmsg show turtlesim_msg/Info`
 
 ![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mccI8vUJjTUl76edME61C8GCXgHA6m8cW*0xRpGEaU84VH.Iofg6ZSXcV481jrnPUYCh87ZAKtgIeur43gf5tmKc!/b&bo=3gLoAd4C6AEDGTw!&rf=viewer_4)
 
-`rossrv show turtlesim_msg/AddTwoFloats`
+`$ rossrv show turtlesim_msg/AddTwoFloats`
 
 ![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mccI8vUJjTUl76edME61C8GCbO313EmgjPGldn9mONVygZyfmLHsG*hTbairPzaGaU1KaIVJRkkmu8YEarVVxNgg!/b&bo=3gLoAd4C6AEDGTw!&rf=viewer_4)
 
 ## Step 4: Write cpp files
 
-`cd ./src/turtlesim_msg/src`
+`$ cd ./src/turtlesim_msg/src`
 
-`touch add_two_floats_server.cpp`
+`$ touch add_two_floats_server.cpp`
 
-`touch showInfo.cpp`
+`$ touch showInfo.cpp`
 
 You should copy my code to these files. These two cpp files contains a lot of knowledge about how to use custom message and services. In my project, I don't send the message to another node. In actual use, custom messages are used for node-topic communication to facilitate the transmission of a group of data at one time.
 
@@ -79,11 +79,13 @@ After coding, you should edit *CMakefile.txt* file to generate executable files 
 
 `target_link_libraries(showInfo ${catkin_LIBRARIES})`
 
-At last, use `$ catkin_make` to check them.
+At last, use `catkin_make` to check them.
 
-`cd ~/turtlesim`
+`$ cd ~/turtlesim`
 
-`catkin_make`
+`$ catkin_make`
 
 ## Step 5: Run the files
+
+[Here is a video](https://www.bilibili.com/video/BV1ao4y1f7pZ/) shows you how to run them. Before running them, you should cun `$ roscore`, `$ rosrun turtlesim turtlesim_node`, `$ rosrun turtlesim turtle_teleop_key` at first.
 
