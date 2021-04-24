@@ -71,13 +71,12 @@ You should copy my code to these files. These two cpp files contains a lot of kn
 
 After coding, you should edit *CMakefile.txt* file to generate executable files and link libraries.
 
-`
-add_executable(add_two_floats_server src/add_two_floats_server.cpp)
-target_link_libraries(add_two_floats_server ${catkin_LIBRARIES})
+  add_executable(add_two_floats_server src/add_two_floats_server.cpp)
+  target_link_libraries(add_two_floats_server ${catkin_LIBRARIES})
+  add_executable(showInfo src/showInfo.cpp)
+  target_link_libraries(showInfo ${catkin_LIBRARIES})
 
-add_executable(showInfo src/showInfo.cpp)
-target_link_libraries(showInfo ${catkin_LIBRARIES})
-`
+hello
 
 ## Step 5: Run the files
 
