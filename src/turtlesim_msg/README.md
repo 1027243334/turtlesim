@@ -59,9 +59,15 @@ And then, you can check the result, which will show you the format of the messag
 
 ![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mccI8vUJjTUl76edME61C8GCbO313EmgjPGldn9mONVygZyfmLHsG*hTbairPzaGaUxMr89cauhrgvSYdAKfQ17s!/b&bo=3gLoAd4C6AEDGTw!&rf=viewer_4)
 
-
 ## Step 4: Write cpp files
 
+`cd ./src/turtlesim_msg/src`
+
+`touch add_two_floats_server.cpp`
+
+`touch showInfo.cpp`
+
+These two cpp files contains a lot of knowledge about how to use custom message and services. In my project, I don't send the message to another node. In actual use, custom messages are used for node-topic communication to facilitate the transmission of a group of data at one time.
 
 ## Step 5: Run the files
 
