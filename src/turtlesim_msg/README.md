@@ -33,7 +33,15 @@ Then, you should edit the *Info.msg* file. Please check mine. Next, create a ser
 
 `touch AddTwoFloats.srv`
 
-You should also edit the * AddTwoFloats.srv* file. Please check mine.
+You should also edit the *AddTwoFloats.srv* file. Please check mine.
+
+## Step 3: Edit configuration files
+
+*package.xml* file and *CMakefile.txt* file should be looked like these. It's different from turtlesim_name and turtlesim_tf package. Be careful about the meessage_generation and message_runtime dependencies and another configuration.
+
+![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mccI8vUJjTUl76edME61C8GCyWa4PA3SdXfhtT1bQ4lVRA2.HW*tLv*bViFnJ350N6KOYKYoCuVOdOxpHF0NrTro!/b&bo=LATdAiwE3QIDGTw!&rf=viewer_4)
+
+![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mceSJBgvIe3fDR9i86A..uJRtiyxLBskpAQWrFiLbWZnPXFv5yXFmoGzSbLV*Y0CNFEMMRNUDmAioeYezXa5KoQI!/b&bo=LATeAiwE3gIDGTw!&rf=viewer_4)
 
 After finishing it, run the following command to complie them.
 
@@ -51,7 +59,6 @@ And then, you can check the result, which will show you the format of the messag
 
 ![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mccI8vUJjTUl76edME61C8GCbO313EmgjPGldn9mONVygZyfmLHsG*hTbairPzaGaUxMr89cauhrgvSYdAKfQ17s!/b&bo=3gLoAd4C6AEDGTw!&rf=viewer_4)
 
-## Step 3: Edit configuration files
 
 ## Step 4: Write cpp files
 
