@@ -29,7 +29,7 @@ The first time you run it in your workspace, a *CMakelists.txt* file is created 
 
 ![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mcZ4u9lod5A0RGiMbl*jDuQaOBvBRd*MH8h*Iw98SEFKjA90AedzWuJeKS76RRol.VbEknahn7Yo7aoxnMxmozyk!/b&bo=egMXAnoDFwIDGTw!&rf=viewer_4)
 
-## Step 3: Edit configuration files
+## Step 3: Write cpp files and edit configuration files
 `$ cd ~/turtlesim/src/turtlesim_name/src`
 
 `$ touch demo.cpp`
