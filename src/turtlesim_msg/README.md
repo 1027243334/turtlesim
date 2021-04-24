@@ -37,7 +37,7 @@ You should also edit the *AddTwoFloats.srv* file. Please check mine.
 
 ## Step 3: Edit configuration files
 
-*package.xml* file and *CMakefile.txt* file should be looked like these. It's different from turtlesim_name and turtlesim_tf package. Be careful about the meessage_generation and message_runtime dependencies and another configuration.
+*package.xml* file and *CMakefile.txt* file are showed below. It's different from turtlesim_name and turtlesim_tf package. Be careful about the meessage_generation and message_runtime dependencies and another configuration.
 
 ![pic](http://m.qpic.cn/psc?/V53W2FkB1yOtnS25GEyd38amA54P7fxq/45NBuzDIW489QBoVep5mccI8vUJjTUl76edME61C8GCyWa4PA3SdXfhtT1bQ4lVRA2.HW*tLv*bViFnJ350N6KOYKYoCuVOdOxpHF0NrTro!/b&bo=LATdAiwE3QIDGTw!&rf=viewer_4)
 
